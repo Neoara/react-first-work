@@ -4,8 +4,36 @@ body{
     text-align: center;
 }
 
-img{
+.imgQrCode{
     width: 300px;
     height: 300px;
     margin-top: 50px;
+    color: rgb(132, 0, 255);
+}
+
+.citiesContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oddMachineContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.evenContainer{
+    width: 200px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.oddContainer{
+    width: 200px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
 }

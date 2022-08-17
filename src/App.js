@@ -1,6 +1,9 @@
 import ConvertMachine from './Components/ConvertMachine';
 import Canculate from './Components/Canculate';
 import QrCodeGenarade from './Components/QrCodeGenarade';
+import Translator from './Components/Translator';
+import Cities from './Components/Cities';
+import OddMachine from './Components/OddMachine';
 import './globalStyle.css'
 
 function App() {
@@ -9,6 +12,9 @@ function App() {
       <ConvertMachine />
       <Canculate />
       <QrCodeGenarade />
+      <Translator />
+      <Cities />
+      <OddMachine />
     </div>
   );
 }
